@@ -1,0 +1,122 @@
+
+
+  
+body{
+    text-align: center;                         /* Sirve para centrar el texto*/
+    font-family: sans-serif;                    /* Sirve para dar fuente a la tipografia*/
+
+}
+
+.head{
+    display: flex;                              /* Hace que un contenedor se convierta en un contenedor flexible */
+    align-items: center;                        /* Centra los elementos en el medio */
+    justify-content: space-between;             /* */
+    height: 63px;                               /* */
+    background: #171717;                      /* */
+    position: fixed;                            /* */
+    width: 95%;                                /* */
+    z-index: 100%;                              /* */
+    font-size: 2px;
+
+}
+
+.navbar {                   
+    display: flex;                              /* */
+    margin-right: 5%;                         /* */
+}
+img{
+  display:flex;
+  width: 50px;
+  height: auto;
+}
+.logo_img{
+   display:flex;
+   margin-left: 2%;
+   
+}
+.logo{
+    margin-left: 3%;                         /* */
+    
+}
+
+.logo a{
+    text-decoration: none;                    /* */
+    color: coral;                            /* */
+    text-transform: uppercase;                /* */
+    font-size: 9px;                          /* */
+}
+
+.navbar a{                                 /* Esto quiere decir que lo definido en el CSS solo se va a aplicar dentro de los a que se encuentran dentro del logo*/
+    display: block;                        /* El elemento será tratado como un bloque y ocupará todo el ancho de la página disponible*/
+    padding: 3px 3px;                    /* Se utiliza para controlar el espacio interno */
+    color: #fff;                         /* */
+    text-decoration: none;                 /* */
+    text-transform: uppercase;             /* */
+    font-size: 9px;                       /* */
+}
+
+.header {
+    display: flex;                        /* */
+    justify-content: center;              /* */
+    align-items: center;                  /* */
+}
+
+.header{
+   
+    height: 100vh !important;                           /* */
+    background: url(wallpaperflare.com_wallpaper\ \(1\).jpg) no-repeat center;     /* */
+    background-size: cover;                          /* */
+    width: 100vw;
+   
+   
+}
+
+.tittle{
+    margin-bottom: 40px;                     /* */
+    font-size: 30px;                         /* */
+    font-weight: 600;                        /* */
+    text-transform: uppercase;               /* */
+    color: #fff;                           /* */
+}
+
+p{
+    margin-bottom: 27%;                  /* */
+    font-size: 12px;                      /* */
+    color: #fff;                        /* */
+    padding:0 10px;                      /* */
+    text-align: justify;
+
+}
+
+.btn{
+    display: inline-block;              /* */
+    margin-top: 15px;                   /* */
+    padding: 10px 40px;                 /* */
+    border: 2px solid white;        /* */
+    color: #fff;                      /* */
+    text-decoration: none;              /* */
+    background: lightcoral;              /* */
+}
+
+.btn:hover{
+    background: none;            /* */
+}
+
+.btn-home{
+    display: flex;              /* */
+
+}
+
+.btn-home a {
+    margin:0 10px;            /* */
+
+}
+
+.content {
+    height: 50vh;                      /* */
+    display: flex;                    /* */
+    flex-direction: column;          /* */
+    justify-content: center;        /* */
+    align-items: center;           /* */
+
+}

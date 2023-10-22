@@ -1,0 +1,102 @@
+body{
+	font-family: 'Times new roman';
+    background-image: linear-gradient(to top ,  black, white);  /* Me permite crear un fondo con degradado*/
+    background-repeat: no-repeat;                 
+    background-attachment: fixed;
+    
+}
+
+.head{
+    height: 42px;
+    width: 100%;
+    background-image: linear-gradient(to top ,  black, black);  /* Me permite crear un fondo con degradado*/
+    text-align: center;
+    font-size: medium;
+    color: rgb(215, 204, 211);
+    
+}
+
+.galeria{
+    width: 90%;
+
+}
+.imagen1:hover {
+    filter: brightness(150%);
+  }
+.imagen1{
+    float: left;
+    border: solid;
+    border: 2px solid rgb(100, 95, 95);
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 70px;
+    transition: filter 0.3s;
+    background-color: black;
+    
+}
+@media (max-width: 300px) {
+    .imgagen1 {
+      width: 20%;
+      height: 20%
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .imgagen1 {
+      width: 90%;
+      height: 90%;
+    }
+  }
+
+.imagen2:hover {
+    filter: brightness(150%);
+  }
+
+.imagen2{
+    float: right;
+    border: solid;
+    border: 2px solid rgb(85, 77, 77);
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+    margin-top:70px;
+    background-color: black;
+    transition: filter 0.3s;
+}
+
+@media (min-width: 768px) {
+    .imgagen2 {
+        width: 20%;
+        height: 20%
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .imgagen2 {
+        width: 90%;
+        height: 90%;
+    }
+  }
+
+.fila2{
+    margin-top: 300px;
+
+}
+
+.imagen3:hover {
+    filter: brightness(150%);
+  }
+
+.imagen3{
+    margin-left: 35%;
+    border: solid;
+    border: 2px solid rgb(85, 77, 77);
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+    margin-top:70px;
+    background-color: black;
+    transition: filter 0.3s;
+}
+

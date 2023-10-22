@@ -1,0 +1,79 @@
+
+body{
+    height: 100%; 
+    width: 100%;
+	font-family: 'Times new roman';
+    background-image: linear-gradient(to top ,  black, lightcoral);  /* Me permite crear un fondo con degradado*/
+    background-repeat: no-repeat;                 
+    background-attachment: fixed;
+    
+}
+
+
+.bloque_formulario{	
+	width: 460px; 
+    height: 800px;
+    margin: 80px auto;
+    padding: 30px 30px;
+    background-color: #fbfbfb; 
+    border-style: solid;
+    border-color: #5c5757;
+    border-radius: 4%;
+}
+
+h1{
+    text-align: center;
+    font-size: 49px;  
+	text-align: letf; 
+	padding-bottom: px; 
+	color: palevioletred;
+    font-weight: bold;
+}
+
+input{
+	background-color: #eac0d9; 
+	width: 450px; 
+	height: 70px; 
+	border-style: solid; 
+	border-width: 3px; 
+	border-color: #13010f; 
+    font-size: 25px;
+
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+    font-size: 60px;
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+.btn{
+    display: inline-block;              /* */
+    margin-top: 15px;                   /* */
+    padding: 15px 40px;                 /* */
+    border: 2px solid #0f0211;        /* */
+    color: #fff;                      /* */
+    text-decoration: none;              /* */
+    background: #d8a7b9;              /* */
+}
+
+.btn-home{
+    display: flex;              /* */
+
+}
+
+.btn-home a {
+    margin:100px 140px;            /* */
+    font-size: 30px;
+    color:black;
+    text-transform: uppercase;
+
+}
+
+
